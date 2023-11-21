@@ -1,0 +1,430 @@
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ pwd                
+/home/kali
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ mkdir dos
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ mkdir studenti
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  dos  Downloads  Music  Pictures  Public  studenti  Templates  Videos
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ mkdir windows 
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ mkdir tmp    
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd /studenti    
+cd: no such file or directory: /studenti
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd /studenti/
+cd: no such file or directory: /studenti/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  dos  Downloads  Music  Pictures  Public  studenti  Templates  tmp  Videos  windows
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd studenti/ 
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ mkdir nicola
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ mkdir anna  
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ mkdir matteo
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ cd scuola/  
+cd: no such file or directory: scuola/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ ls
+anna  matteo  nicola
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ cd nicola 
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola]
+└─$ mkdir scuola   
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola]
+└─$ ls
+scuola
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola]
+└─$ mkdir lavoro
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola]
+└─$ ls
+lavoro  scuola
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola]
+└─$ nano relazione.doc
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola]
+└─$ ls
+lavoro  scuola
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola]
+└─$ cd scuola/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ ls          
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ sudo nano relazione.doc
+[sudo] password for kali: 
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ ls
+relazione.doc
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ sudo nano compito.doc  
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ ls                   
+relazione.doc
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ sudo nano compito.doc
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ ls                   
+compito.doc  relazione.doc
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd anna/  
+cd: no such file or directory: anna/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ /student/anna/
+zsh: no such file or directory: /student/anna/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd student  
+cd: no such file or directory: student
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd studenti 
+cd: no such file or directory: studenti
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd home    
+cd: no such file or directory: home
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd:    
+Command 'cd:' not found, did you mean:
+  command 'cdi' from deb cdo
+  command 'cdo' from deb cdo
+  command 'cd5' from deb cd5
+  command 'cdp' from deb irpas
+  command 'cdb' from deb tinycdb
+  command 'cdw' from deb cdw
+  command 'cde' from deb cde
+Try: sudo apt install <deb name>
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd :   
+cd: no such file or directory: :
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd nicola/
+cd: no such file or directory: nicola/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd /nicola   
+cd: no such file or directory: /nicola
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd scuola/             
+cd: no such file or directory: scuola/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd /anna  
+cd: no such file or directory: /anna
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/scuola]
+└─$ cd ..   
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola]
+└─$ cd.. 
+cd..: command not found
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola]
+└─$ cd ..
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ cd ..
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  dos  Downloads  Music  Pictures  Public  studenti  Templates  tmp  Videos  windows
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd /anna
+cd: no such file or directory: /anna
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd /studenti 
+cd: no such file or directory: /studenti
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd studenti 
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ cd anna    
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ mkdir casa  
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ cd ..  
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ ls
+anna  matteo  nicola
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ cd matteo
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/matteo]
+└─$ mkdir amici
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/matteo]
+└─$ cd ..       
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ cd ..
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd tmp
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/tmp]
+└─$ ls
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/tmp]
+└─$ sudo nano risultati.doc
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/tmp]
+└─$ cd .. 
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd /casa    
+cd: no such file or directory: /casa
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd studenti/anna/casa/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna/casa]
+└─$ cp /home/kali/studenti/nicola/scuola/compito.doc 
+cp: missing destination file operand after '/home/kali/studenti/nicola/scuola/compito.doc'
+Try 'cp --help' for more information.
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna/casa]
+└─$ cp /home/kali/studenti/nicola/scuola/compito.doc /home/kali/studenti/anna/casa/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna/casa]
+└─$ ls
+compito.doc
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna/casa]
+└─$ cp /home/kali/studenti/nicola/scuola/relazione.doc /home/kali/studenti/anna/casa/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna/casa]
+└─$ ls
+compito.doc  relazione.doc
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna/casa]
+└─$ cd kali                                                                          
+cd: no such file or directory: kali
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna/casa]
+└─$ cd /home    
+                                                                                                                                                           
+┌──(kali㉿kali)-[/home]
+└─$ ls       
+kali
+                                                                                                                                                           
+┌──(kali㉿kali)-[/home]
+└─$ cd /kali/
+cd: no such file or directory: /kali/
+                                                                                                                                                           
+┌──(kali㉿kali)-[/home]
+└─$ cd kali  
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  dos  Downloads  Music  Pictures  Public  studenti  Templates  tmp  Videos  windows
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ rm -r tmp
+rm: remove write-protected regular file 'tmp/risultati.doc'? 
+rm: cannot remove 'tmp': Directory not empty
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ rm -r tmp
+rm: remove write-protected regular file 'tmp/risultati.doc'? y
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd /home/kali/studenti/nicola/lavoro/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ sudo nano pippo.txt    
+[sudo] password for kali: 
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ ls
+pippo.txt
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ ls -l  
+total 4
+-rw-r--r-- 1 root root 1 Nov 21 14:30 pippo.txt
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ chmod g-w pippo.txt                  
+chmod: changing permissions of 'pippo.txt': Operation not permitted
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ sudo chmod g-w pippo.txt
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ ls -l
+total 4
+-rw-r--r-- 1 root root 1 Nov 21 14:30 pippo.txt
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ sudo chmod u-r /home/kali/studenti/anna 
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ cd /home/kali                        
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls   
+Desktop  Documents  dos  Downloads  Music  Pictures  Public  studenti  Templates  Videos  windows
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd studenti           
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ ls
+anna  matteo  nicola
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ cd anna     
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ ls
+ls: cannot open directory '.': Permission denied
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ ls -a
+ls: cannot open directory '.': Permission denied
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ cd /home/kali/studenti/nicola/lavoro/
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ sudo nano pippo.txt                     
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ rm -r amici                        
+rm: cannot remove 'amici': No such file or directory
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ rm -r /home/kali/studenti/matteo/amici 
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/nicola/lavoro]
+└─$ cd /home                             
+                                                                                                                                                           
+┌──(kali㉿kali)-[/home]
+└─$ ls   
+kali
+                                                                                                                                                           
+┌──(kali㉿kali)-[/home]
+└─$ cd kali       
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  dos  Downloads  Music  Pictures  Public  studenti  Templates  Videos  windows
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ rm -r studenti dos windows             
+rm: cannot remove 'studenti/anna': Permission denied
+rm: remove write-protected regular file 'studenti/nicola/scuola/compito.doc'? y
+rm: remove write-protected regular file 'studenti/nicola/scuola/relazione.doc'? y
+rm: remove write-protected regular file 'studenti/nicola/lavoro/pippo.txt'? y
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  studenti  Templates  Videos
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ cd studenti                
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ ls
+anna
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ chmod u-r anna     
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ cd anna       
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ ls
+ls: cannot open directory '.': Permission denied
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ ls -l                      
+ls: cannot open directory '.': Permission denied
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ chmod u+r anna
+chmod: cannot access 'anna': No such file or directory
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ cd ..          
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ chmod u+r anna
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti]
+└─$ cd anna       
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ ls   
+casa
+                                                                                                                                                           
+┌──(kali㉿kali)-[~/studenti/anna]
+└─$ cd /home/kali                        
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls 
+Desktop  Documents  Downloads  Music  Pictures  Public  studenti  Templates  Videos
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ rm -r studenti             
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                           
+┌──(kali㉿kali)-[~]
+└─$ 
